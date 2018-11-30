@@ -1,0 +1,122 @@
+{
+	"id": "b25a12da-7dc1-4cbd-accc-9beb8ead9f7a",
+	"name": "MicrocommerceCollection",
+	"allTests": [],
+	"timestamp": "2018-11-30T13:44:39.411Z",
+	"collection_id": "25316043-e526-460c-8bd1-be10dd260860",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "25316043-e526-460c-8bd1-be10dd260860",
+		"name": "MicrocommerceCollection",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"d7987f9a-992e-4417-862f-63d9d402a888",
+			"56630ce0-230d-4297-acd4-ef83b2eebe85"
+		],
+		"folders_order": [],
+		"owner": "0",
+		"permissions": {},
+		"favorite": false,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": null,
+	"results": [
+		{
+			"name": "calculerMargeProduit",
+			"id": "d7987f9a-992e-4417-862f-63d9d402a888",
+			"url": "http://localhost:9090/AdminProduits/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"44"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "44",
+			"totalRequestTime": "44",
+			"iterationResults": {}
+		},
+		{
+			"name": "trierProduitsParOrdreAlphabetique",
+			"id": "56630ce0-230d-4297-acd4-ef83b2eebe85",
+			"url": "http://localhost:9090/Produits/TriAZ",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"28"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "28",
+			"totalRequestTime": "28",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 72,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "calculerMargeProduit",
+			"id": "d7987f9a-992e-4417-862f-63d9d402a888",
+			"url": "http://localhost:9090/AdminProduits/",
+			"time": "2018-11-30T13:44:39.411Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "trierProduitsParOrdreAlphabetique",
+			"id": "56630ce0-230d-4297-acd4-ef83b2eebe85",
+			"url": "http://localhost:9090/Produits/TriAZ",
+			"time": "2018-11-30T13:44:39.411Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
